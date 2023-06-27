@@ -1,10 +1,4 @@
 # Tuplex: Data Science in Python at Native Code Speed
 
 
-query1 y query son consultas hechas en Tuplex
-
-
-query1spark y query2spark son consultas en Spark
-
-
-Ambas consultas fueron realizadas a un subconjunto (1GB) del conjunto de datos de 311 Service Requests Dataset (11GB)
+Hoy en día, el volumen de datos tiene un crecimiento exponencial, lo que genera la necesidad de utilizar \textit{frameworks} que permitan realizar análisis de datos a gran escala de manera eficiente. Tuplex es un enfoque novedoso en el ámbito de la ciencia de datos. Este \textit{framework} permite compilar en tiempo de ejecución las funciones personalizadas escritas en \textit{Python} en un código nativo optimizado. Introduce un modelo de ejecución de doble modo que se centra en la ruta rápida para casos comunes y utiliza rutas de código de excepción más lentas para datos que no se ajustan a las suposiciones de la ruta rápida. Esto asegura la finalización de los \textit{pipelines} incluso en presencia de excepciones y simplifica la depuración del código. El análisis se realiza en grandes conjuntos de datos, por lo que es de alta importancia que estos \textit{frameworks} sean utilizados en sistemas distribuidos, por lo que el objetivo  de este artículo es habilitar el uso de Tuplex de forma distribuida. Al permitir la ejecución distribuida de Tuplex, se busca analizar su eficiencia y compararla con otras herramientas existentes en términos de análisis masivo de datos. Esto permitirá determinar si Tuplex es capaz de ofrecer un rendimiento sólido en entornos distribuidos y su viabilidad como una opción para el análisis de grandes volúmenes de datos. 
